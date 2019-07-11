@@ -1,6 +1,6 @@
 # Website for TEDxMAIT
-This is source for TEDxMAIT's website that was held on 17 March 2018. It is hosted using GitHub pages.
-The new TEDxMAIT is going to be organized in the month of August 2019.
+This is source for TEDxMAIT's website. It is hosted using GitHub pages.
+The re-edition TEDxMAIT is going to be organized in the month of August 2019.
 <br>
 <br>
 Check out the website [here.](http://www.tedxmait.com)
@@ -17,6 +17,10 @@ Want to contribute? Great! Fork me!
 ### License
 MIT
 
+### Author
+Shivay Lamba github.com/shivaylamba
+Abhishek Nigam github.com/abhishek-nigam
+
 TEDx and TEDxMAIT are properties of their respective owners. And they are used here with their prior permission.
 
-*last uplated: 20 March 2019*
+*last uplated: 11 July 2019*
