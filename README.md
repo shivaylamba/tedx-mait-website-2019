@@ -18,8 +18,8 @@ Want to contribute? Great! Fork me!
 MIT
 
 ### Author
-Shivay Lamba github.com/shivaylamba
-Abhishek Nigam github.com/abhishek-nigam
+-[Shivay Lamba](https://github.com/shivaylamba/) <br>
+-[Abhishek Nigam](https://github.com/abhishek-nigam/)
 
 TEDx and TEDxMAIT are properties of their respective owners. And they are used here with their prior permission.
 
