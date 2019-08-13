@@ -1,6 +1,6 @@
 # Website for TEDxMAIT
 This is source for TEDxMAIT's website. It is hosted using GitHub pages.
-The re-edition TEDxMAIT is going to be organized in the month of August 2019.
+The re-edition TEDxMAIT is going to be organized in the month of August 2019(31 August).
 <br>
 <br>
 Check out the website [here.](http://www.tedxmait.com)
