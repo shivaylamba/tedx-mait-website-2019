@@ -45,25 +45,25 @@
     <link rel="stylesheet" href="assets/css/custom_styles.css">
 
     <!-- Favicon images -->
-    <link rel="shortcut icon" href="favicons/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="favicons/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="favicons/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="favicons/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="favicons/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16.png">
-	<link rel="apple-touch-icon" href="favicons/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicons/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicons/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicons/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicons/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicons/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicons/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/favicon-180.png">
+    <link rel="shortcut icon" href="favicons/favicon.png">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="favicons/favicon.png">
+	<link rel="icon" type="image/png" sizes="196x196" href="favicons/favicon.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="favicons/favicon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="favicons/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/favicon.png">
 	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="favicons/favicon-144.png">
+	<meta name="msapplication-TileImage" content="favicons/favicon.png">
 	<meta name="msapplication-config" content="favicons/browserconfig.xml">
     <style>
 /*     .spinner {
@@ -315,12 +315,19 @@ z-index: 999999;
                     <h1 class="landing-title"><span class="font-tedx-red">TED<sup>x</sup></span>MAIT</h1>
                     <div class="landing-box">
                         <h1>Maharaja Agrasen Institute of Technology</h1>
+
                         <br>
-                      
+                        <h2> 31st August 2019 | 9:00 AM</h2>
 
                     </div><!-- landing-box-->
-                    <br>
-                    <center><h1>31st of August, 2019</h1></center> 
+                    <div class="text-center landing-countdown d-none"> <!-- for skipping displaying 0's at starting -->
+                      <ul id="countdown-clock" class="d-flex justify-content-between pl-0">
+                          <li><span class="count">0</span><br><span class="unit">Days</span></li><!--
+                          --><li><span class="count">0</span><br><span class="unit">Hours</span></li><!--
+                          --><li><span class="count">0</span><br><span class="unit">Minutes</span></li><!--
+                          --><li><span class="count">0</span><br><span class="unit">Seconds</span></li>
+                      </ul><!-- ul:countdown-clock-->    
+                  </div>
                     <!-- <div class="text-center landing-countdown d-none">
                         <ul id="countdown-clock" class="d-flex justify-content-between pl-0">
                             <li><span class="count">0</span><br><span class="unit">Days</span></li>
@@ -450,7 +457,7 @@ z-index: 999999;
                     <ul class="pl-0">
                         <li class="py-1"><a href="./#what-is-tedx-anchor">TEDx</a></li>
                         <li class="py-1"><a href="./#theme-anchor">Theme</a></li>
-                        <li class="py-1"><a href="./#speakers-anchor">Speakers</a></li>
+                        <li class="py-1"><a href="speakers.html">Speakers</a></li>
                         <li class="py-1"><a href="./#venue-anchor">Venue</a></li>
                     </ul>
                 </div><!--col-->
@@ -476,7 +483,7 @@ z-index: 999999;
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-   <!--  <script src="assets/js/custom_scripts.js"></script> -->
+    <script src="assets/js/custom_scripts.js"></script>
     <script>
         $(document).ready(function() {
         //Preloader
